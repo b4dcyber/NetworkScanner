@@ -18,20 +18,20 @@ A lightweight Python script that wraps Nmap to perform fast and customizable net
 
 ## 🧪 Installation
 
-Linux User
-git clone https://github.com/b4dcyber/NetworkScanner.git
-cd NetworkScanner
-python3 -m venv .venv
-source .venv/bin/activate
-pip install nmap
-python scanner.py
+- Linux User
+- git clone https://github.com/b4dcyber/NetworkScanner.git
+- cd NetworkScanner
+- python3 -m venv .venv
+- source .venv/bin/activate
+- pip install nmap
+- python scanner.py
 
 
 
-Windows User
-.venv\Scripts\activate
-pip install python-nmap
-python scanner.py
+- Windows User
+- .venv\Scripts\activate
+- pip install python-nmap
+- python scanner.py
 
 
 
