@@ -1,0 +1,52 @@
+📖 Usage Guide — Nmap Python Scanner
+
+This guide shows how to set up, run, and use the scanner tool effectively from your local environment.
+✅ 1. Clone the Repository
+
+git clone https://github.com/YOUR_USERNAME/nmap-python-scanner.git
+cd nmap-python-scanner
+
+✅ 2. Set Up the Virtual Environment
+
+python3 -m venv .venv
+source .venv/bin/activate          # Linux/macOS
+# OR
+.venv\Scripts\activate             # Windows
+
+pip install -r requirements.txt
+
+✅ 3. Run the Scanner
+
+python scanner.py
+
+You'll be prompted to enter the target IP or domain.
+✅ 4. Example Run
+
+$ python scanner.py
+Enter target IP or hostname: scanme.nmap.org
+
+[+] Scanning scanme.nmap.org on ports 1-1024...
+[+] Host: 45.33.32.156
+    State: up
+    Port 22/tcp: open
+    Port 80/tcp: open
+
+⚙️ Optional Customization (CLI Version - if added)
+
+python scanner.py --target 192.168.1.1 --ports 22,80,443 --fast
+
+Option	Description
+--target	IP or hostname to scan
+--ports	Comma-separated list or range (e.g., 1-1024)
+--fast	Enable fast scanning mode (-T4 -F)
+🧪 Requirements Recap
+
+    Python 3.7+
+
+    Nmap installed (e.g., sudo apt install nmap)
+
+    Python package: python-nmap
+
+🛑 Legal Notice
+
+    Use this tool only on machines you own or have explicit permission to scan. Unauthorized scanning is illegal and may result in prosecutio
