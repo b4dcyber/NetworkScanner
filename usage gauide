@@ -3,7 +3,7 @@
 This guide shows how to set up, run, and use the scanner tool effectively from your local environment.
 ✅ 1. Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/nmap-python-scanner.git
+git clone https://github.com/b4dcyber/NetworkScanner
 cd nmap-python-scanner
 
 ✅ 2. Set Up the Virtual Environment
@@ -13,7 +13,7 @@ source .venv/bin/activate          # Linux/macOS
 # OR
 .venv\Scripts\activate             # Windows
 
-pip install -r requirements.txt
+pip install nmap
 
 ✅ 3. Run the Scanner
 
@@ -49,4 +49,4 @@ Option	Description
 
 🛑 Legal Notice
 
-    Use this tool only on machines you own or have explicit permission to scan. Unauthorized scanning is illegal and may result in prosecutio
+    Use this tool only on machines you own or have explicit permission to scan. Unauthorized scanning is illegal and may result in prosecution
