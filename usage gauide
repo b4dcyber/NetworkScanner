@@ -3,7 +3,7 @@
 This guide shows how to set up, run, and use the scanner tool effectively from your local environment.
 ✅ 1. Clone the Repository
 
-git clone https://github.com/b4dcyber/NetworkScanner
+git clone https://github.com/b4dcyber/NetworkScanner.git
 cd nmap-python-scanner
 
 ✅ 2. Set Up the Virtual Environment
